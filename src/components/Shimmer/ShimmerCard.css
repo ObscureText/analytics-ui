@@ -1,0 +1,40 @@
+.shimmer-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.shimmer-line {
+    height: 1rem;
+    width: 100%;
+}
+
+.shimmer-line.sm {
+    height: 0.75rem;
+    width: 40%;
+}
+
+.shimmer-line.md {
+    height: 1.25rem;
+    width: 70%;
+}
+
+.shimmer-line.lg {
+    height: 2.25rem;
+    width: 50%;
+}
+
+.shimmer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+}
+
+.shimmer-block {
+    height: 200px;
+    width: 100%;
+}
